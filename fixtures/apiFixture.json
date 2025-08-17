@@ -1,0 +1,30 @@
+{
+  "endpoints": {
+    "login": "/users/login",
+    "register": "/users",
+    "contacts": "/contacts",
+    "logout": "/users/logout"
+  },
+  "headers": {
+    "contentType": "application/json",
+    "authorization": "Bearer"
+  },
+  "responses": {
+    "successLogin": {
+      "statusCode": 200,
+      "message": "Login successful"
+    },
+    "invalidCredentials": {
+      "statusCode": 401,
+      "message": "Incorrect username or password"
+    },
+    "contactCreated": {
+      "statusCode": 201,
+      "message": "Contact added"
+    },
+    "contactDeleted": {
+      "statusCode": 200,
+      "message": "Contact deleted"
+    }
+  }
+}

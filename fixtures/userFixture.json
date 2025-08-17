@@ -1,0 +1,46 @@
+{
+  "validUsers": [
+    {
+      "username": "nish@gmail.com",
+      "password": "12345678",
+      "firstName": "Nish",
+      "lastName": "Patel"
+    },
+    {
+      "username": "test.user@example.com", 
+      "password": "TestPass123",
+      "firstName": "Test",
+      "lastName": "User"
+    }
+  ],
+  "invalidUsers": [
+    {
+      "username": "invalid@test.com",
+      "password": "wrongpass",
+      "reason": "Non-existent user"
+    },
+    {
+      "username": "nish@gmail.com",
+      "password": "wrongpassword", 
+      "reason": "Wrong password"
+    }
+  ],
+  "edgeCases": {
+    "emptyCredentials": {
+      "username": "",
+      "password": ""
+    },
+    "emptyUsername": {
+      "username": "",
+      "password": "somepassword"
+    },
+    "emptyPassword": {
+      "username": "test@example.com",
+      "password": ""
+    },
+    "specialCharacters": {
+      "username": "!@#$%^&*()",
+      "password": "!@#$%^&*()"
+    }
+  }
+}

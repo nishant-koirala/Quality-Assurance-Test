@@ -1,0 +1,50 @@
+{
+  "newContact": {
+    "firstName": "TestUser",
+    "lastName": "AutoTest", 
+    "name": "TestUser AutoTest",
+    "dob": "1990-01-15",
+    "email": "testuser.autotest@example.com",
+    "phone": "1234567890",
+    "address": "123 Main Street",
+    "city": "New York",
+    "state": "NY",
+    "postal": "10001"
+  },
+  "contactToDelete": {
+    "firstName": "DeleteMe",
+    "lastName": "TestContact",
+    "name": "DeleteMe TestContact",
+    "dob": "1985-05-20",
+    "email": "deleteme.testcontact@example.com", 
+    "phone": "0987654321",
+    "address": "456 Oak Avenue",
+    "city": "Los Angeles",
+    "state": "CA",
+    "postal": "90210"
+  },
+  "updateContact": {
+    "firstName": "Michael",
+    "lastName": "Johnson",
+    "name": "Michael Johnson",
+    "dob": "1992-12-03",
+    "email": "michael.johnson@example.com",
+    "phone": "5551234567",
+    "address": "789 Pine Road",
+    "city": "Chicago", 
+    "state": "IL",
+    "postal": "60601"
+  },
+  "invalidContact": {
+    "firstName": "",
+    "lastName": "",
+    "name": "",
+    "dob": "invalid-date",
+    "email": "invalid-email",
+    "phone": "abc123",
+    "address": "",
+    "city": "",
+    "state": "",
+    "postal": ""
+  }
+}
