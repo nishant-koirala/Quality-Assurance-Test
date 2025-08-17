@@ -13,6 +13,7 @@
       "lastName": "User"
     }
   ],
+  
   "invalidUsers": [
     {
       "username": "invalid@test.com",
