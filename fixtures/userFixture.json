@@ -17,8 +17,8 @@
   "invalidUsers": [
     {
       "username": "invalid@test.com",
-      "password": "wrongpass",
-      "reason": "Non-existent user"
+      "password": "wrosaasngpass",
+      "reason": "Non-exaistent user"
     },
     {
       "username": "nish@gmail.com",
